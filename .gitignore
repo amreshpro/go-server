@@ -1,0 +1,54 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of `go build`
+/bin/
+/build/
+/dist/
+
+# Vendor folder (if not committed)
+vendor/
+
+# Go workspace file (Go 1.18+)
+go.work
+go.work.sum
+
+# Go modules
+go.sum
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & temp files
+*.log
+*.tmp
+*.cache
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+.env.*
+
+# Coverage/testing
+coverage.out
+*.coverprofile
+*.lcov
+testdata/
+
+# Dependency cache (optional)
+**/.cache/
+
+# Example: skip local config
+config.local.json
